@@ -26,3 +26,7 @@ npm start
 ```
 
 in root project directory.
+
+###Demo
+
+Demo is available at [http://demo.michal.zalecki.pl/BWDM7/](http://demo.michal.zalecki.pl/BWDM7/)
