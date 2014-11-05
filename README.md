@@ -4,7 +4,7 @@ BWDM #7 - AngularJS - Demo App
 Simple App builded for Bydgoszcz Web Development Meetup #7 as AngularJS demo
 
 ###Install dependencies
-Don'n forget to install required dependencies via npm and bower. To do this run:
+Don't forget to install required dependencies via npm and bower. To do this run:
 
 ```sh
 npm install
