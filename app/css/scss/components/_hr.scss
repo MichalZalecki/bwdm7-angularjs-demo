@@ -1,0 +1,20 @@
+/*------------------------------------*\
+    HR
+\*------------------------------------*/
+
+$hr-gray: lighten($gray-color, 20%);
+
+hr {
+	margin: 0;
+	@include vr-mb(1);
+	background: $gray-color;
+	border: 0;
+	height: 1px;
+}
+
+.hr--gradient {
+	background-image: -webkit-linear-gradient(left, $hr-gray, $gray-color, $hr-gray);
+	background-image: -moz-linear-gradient(left, $hr-gray, $gray-color, $hr-gray);
+	background-image: -ms-linear-gradient(left, $hr-gray, $gray-color, $hr-gray);
+	background-image: -o-linear-gradient(left, $hr-gray, $gray-color, $hr-gray);
+}

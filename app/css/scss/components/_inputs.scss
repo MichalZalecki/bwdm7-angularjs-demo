@@ -1,0 +1,41 @@
+/*------------------------------------*\
+    FORMS
+\*------------------------------------*/
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="month"],
+input[type="week"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea {
+    transition: box-shadow 200ms;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+    border: 1px solid $gray-color;
+    color: #000000;
+    line-height: $base-line-height;
+    margin: 0;
+    max-width: 100%;
+    outline: none;
+    padding: 5px $base-line-height/2;
+    vertical-align: top;
+    width: 100%;
+    &:focus {
+        box-shadow: inset $base-line-height/4 0 0 0 $gray-color;
+    }
+    &.input--auto-width {
+        width: auto;
+    }
+}
+
+textarea {
+    resize: vertical;
+}

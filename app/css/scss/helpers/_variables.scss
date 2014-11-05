@@ -1,0 +1,15 @@
+$primary-color:    	#41C415 !default;
+$secondary-color:   #4B3D2B !default;
+$font-color:       	#111111 !default;
+$gray-color:       	#AAAAAA !default;
+$light-gray-color:  lighten(#AAAAAA, 25%) !default;
+$brand-radius: 		6px !default;
+$grid-width:		1200px !default;
+
+$base-font-size:    16px !default;
+$base-line-height:  24px !default;
+
+$fa-css-prefix: icon;
+$fa-font-path: "../components/fontawesome/fonts";
+
+$vr-rem-ie8-fallback: false;
