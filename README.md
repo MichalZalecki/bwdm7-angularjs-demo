@@ -19,7 +19,7 @@ bower install
 in app directory. You need have Node.js and Bower installed already.
 
 ###Run tasks and tests
-To run tasks and tests (you need have installed Grunt and Karma) run
+To run tasks and tests (you need have installed Grunt and Karma) run:
 
 ```sh
 npm start
@@ -29,4 +29,4 @@ in root project directory.
 
 ###Demo
 
-Demo is available at [http://demo.michal.zalecki.pl/BWDM7/](http://demo.michal.zalecki.pl/BWDM7/)
+Demo is available at: [http://demo.michal.zalecki.pl/BWDM7](http://demo.michal.zalecki.pl/BWDM7)
